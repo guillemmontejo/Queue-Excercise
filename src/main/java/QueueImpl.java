@@ -29,7 +29,6 @@ public class QueueImpl<E> implements Queue<E> {
         else {
             this.len -= 1;
             E e = items.get(this.len);
-            //lshift()?????????
             return e;
         }
     }
